@@ -1,5 +1,14 @@
 @import '../../../styles/settings.scss';
 
 .component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: $base-size;
+}
+
+.buttonGroup {
+  background: $color-main;
+  margin: $base-size auto;
+  display: block;
 }

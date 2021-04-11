@@ -2,4 +2,15 @@
 
 .component {
   padding: $base-size;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid $color-main;
 }
